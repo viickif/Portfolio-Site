@@ -1,0 +1,51 @@
+
+@font-face {
+    font-family: ailerons;
+    src: url("Ailerons/Ailerons-Regular.otf") format("opentype");
+}
+
+body {
+	background: white;
+	font-family: 'ailerons';
+	/*background-color: yellow;*/
+}
+
+#landing{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	width: 95%;
+	height: 95vh;
+	margin: auto;
+	max-width: 600px;
+	z-index:0;
+	/*background-color: gray;*/
+}
+
+#landing video {
+   	width: 90%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#landing div {
+	position: absolute;
+  	display:block;
+	align-items:center;
+	justify-content:center;
+	margin: auto;
+  	color: #ff5959;
+  	/*background-color: black;*/*/
+}
+
+#landing h1 {
+	font-size: 8vw;
+	letter-spacing: 1.1px;
+}
+
+#landing h2 {
+	font-size: 3vw;
+	letter-spacing: 1.1px;
+}
+
+
