@@ -1,13 +1,15 @@
 
 @font-face {
-    font-family: ailerons;
     src: url("Ailerons/Ailerons-Regular.otf") format("opentype");
+    font-family: ailerons;
 }
 
 body {
+	padding-top: 70px;
 	background: white;
-	font-family: 'ailerons';
 	/*background-color: yellow;*/
+	background: url("media/test.jpg");
+
 }
 
 #landing{
@@ -15,10 +17,11 @@ body {
 	align-items:center;
 	justify-content:center;
 	width: 95%;
-	height: 95vh;
+	height: 100vh;
 	margin: auto;
 	max-width: 600px;
-	z-index:0;
+	font-family: 'Roboto', sans-serif;
+
 	/*background-color: gray;*/
 }
 
@@ -34,18 +37,30 @@ body {
 	align-items:center;
 	justify-content:center;
 	margin: auto;
-  	color: #ff5959;
-  	/*background-color: black;*/*/
+  	color: #ff3535;
+  	/*background-color: black;*/
 }
 
 #landing h1 {
+	font-family: 'ailerons';
 	font-size: 8vw;
-	letter-spacing: 1.1px;
 }
 
 #landing h2 {
+	font-family: 'ailerons';
 	font-size: 3vw;
-	letter-spacing: 1.1px;
 }
+
+nav img {
+	height: 60px;
+}
+
+.mr-auto, .mx-auto {
+	background: gray;
+	position: absolute;
+	text-align: center;
+
+}
+
 
 
