@@ -1,0 +1,124 @@
+
+/*@font-face {
+    src: url("Ailerons/Ailerons-Regular.otf") format("opentype");
+    font-family: ailerons;
+}*/
+
+/*#2172ff*/
+
+
+body {
+/*	padding-top: 70px;*/
+/*	background: url('media/stripe.png') center no-repeat;
+	background-repeat: no-repeat;*/
+	font-family: 'Karla', sans-serif;
+	font-size: 22px;
+	/*background-color: yellow;*/
+	background: @url('media/images.png') center;
+	padding-top: 40px;
+
+}
+
+h1, h2, h3 {
+	font-family: 'Concert One';
+	text-transform: uppercase;
+}
+
+#landing{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	width: 90%;
+	height: 100vh;
+	margin: auto;
+	max-width: 600px;
+
+
+	/*background-color: gray;*/
+}
+
+#landing img {
+   	width: 90%;
+    border-radius: 50%;
+    object-fit: cover;
+    opacity: 0.92;
+}
+
+#landing div {
+	position: absolute;
+  	display:block;
+	align-items:center;
+	justify-content:center;
+	margin: auto;
+  	width: 72vw;
+  	/*background-color: black;*/
+}
+
+#landing h1 {
+	color: #ff3535;
+	letter-spacing: 0.2em;
+	letter-spacing: 0.2em;
+	font-size: 7vw;
+	text-shadow: 0.4vw 0.4vw #171717;
+}
+
+#landing h3 {
+	text-align: right;
+}
+
+h3 {
+	color: #ff3535;
+	letter-spacing: 0.2em;
+	letter-spacing: 0.2em;
+	font-size: 3vw;
+	text-align: right;
+	text-shadow: 0.15vw 0.15vw #171717;
+}
+
+nav img {
+	height: 60px;
+}
+
+.mr-auto, .mx-auto {
+	/*background: gray;*/
+	position: absolute;
+	text-align: center;
+
+}
+
+.bg-light {
+    background-color: white!important;
+}
+
+
+nav li {
+	letter-spacing: 0.2em;
+	padding-left: 30px;
+	letter-spacing: 0.2em;
+	font-weight: bold;
+	color: #424242;
+	font-size: 20px;
+}
+
+nav li a{
+	color: #424242;
+}
+
+
+.row h2 {
+	color: #171717;
+	letter-spacing: 0.2em;
+	letter-spacing: 0.2em;
+	font-weight: bold;
+	font-size: 7vw;
+	text-shadow: 0.4vw 0.4vw #ff3535;
+}
+
+img {
+	border-radius: 50%;
+}
+
+
+
+
+
