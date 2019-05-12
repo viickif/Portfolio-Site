@@ -2,11 +2,12 @@ $(document).ready(function(){
 
 	var homeText = $('#home h1');
 
-	$(homeText[0]).slideDown(359, function() {
-		$(homeText[1]).slideDown(350);
-		$(homeText[2]).slideDown(350, function() {
-			$('#home p').slideDown(150);
-			$('.navbar').slideDown(150);
+	$(homeText[0]).slideDown(700, function() {
+		$(homeText[1]).slideDown(500);
+		$(homeText[2]).slideDown(500, function() { window.setTimeout(function(){
+				$('#home p').slideDown(150);
+				$('.navbar').slideDown(150);
+			},250); 
 		});
 	});
 

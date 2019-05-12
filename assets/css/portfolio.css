@@ -15,7 +15,7 @@ body {
 	margin-top: 70px;
 }
 
-#home {
+#home, #projects {
 	margin-top: 0;
 }
 
@@ -62,7 +62,7 @@ nav img {
 }
 
 
-#main-home-row {
+.main-row {
 	height: 100vh;
 }
 
@@ -158,6 +158,35 @@ nav img {
 .inverse-nav-link {
 	color: black!important;
 }
+
+#projects-img {
+	/*background-image: url('https://media.giphy.com/media/OZe6HpM5eZow8/giphy.gif');*/
+	background-repeat: no-repeat;
+	background-size: fill;
+	background-position: center;
+	background-image: url('https://media.giphy.com/media/5ONgfB7NTmwrm/giphy.gif');
+}
+
+#projects p {
+	line-height: 10px;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	font-size: 12px;
+	padding-top: 10px;
+}
+
+footer p:first-of-type{
+	color: gray;
+}
+
+#contact a {
+	margin-right: 20px;
+	font-size: 30px;
+}
+
 
 
 
