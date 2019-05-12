@@ -10,24 +10,21 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/portfolio.css">
 
 	<!-- jQuery -->
-	<script type="text/javascript" src="assets/js/lib/jquery-3.4.1.min.js"></script>
+	<script src="assets/js/lib/jquery-3.4.1.min.js"></script>
 
 	<!-- custom js -->
 	<script type="text/javascript" src="assets/js/portfolio.js"></script>
 
 	<!-- fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
-	<link rel="icon" type="image/png" href="media/fav.png">
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet">
 	
 
 </head>
 
 <body>
 <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-	<div class="container">
-	  <a class="navbar-brand" href="#"><img src="media/logo.png"></a>
+	<div class="container-fluid">
+	  <a class="navbar-brand" href="#"><img src="assets/img/logo.png"></a>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 	    <span class="navbar-toggler-icon"></span>
 	  </button>
@@ -35,14 +32,14 @@
 	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 	    <ul class="navbar-nav ml-auto">
 	      <li class="nav-item">
-	        <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+	        <a class="nav-link" href="#">About<span class="period">.<span><span class="sr-only">(current)</span></a>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link" href="#">Contact</a>
+	        <a class="nav-link" href="#">Contact<span class="period">.<span></a>
 	      </li>
 	      <li class="nav-item dropdown">
 	        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-	          Works
+	          Works<span class="period">.<span>
 	        </a>
 	        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
 	          <a class="dropdown-item" href="#">Action</a>
@@ -55,10 +52,35 @@
 	</div>
 	</nav>
 
+	<div class="container-fluid" id="home">
+		<div class="row" id="main-home-row">
+			<div class="col-6 d-flex justify-content-center align-items-center">
+				<div class="row" id="home-subtext-row">
+					<div class="col-3 d-flex align-items-end justify-content-center">
+						<p>Software Developer</p>
+					</div>
+					<div class="col-9" id="home-text-container">
+						<h1>Hi<span class="period">.<span></h1>
+						<h1>I'm</h1>
+						<h1>Vicki<span class="period">.<span></h1>
+					</div>
+				</div>
+			</div>
+			<div class="col-6 px-0" id="home-img">
+				
+				<!-- <img src="https://media.giphy.com/media/klATJLoZkSr1fwTuIz/giphy.gif" class="img-fluid"> -->
+				<!-- <img src="https://media.giphy.com/media/jDJso3tGKfiEw/giphy.gif" class="img-fluid" alt="geometric wave"> -->
+			</div>
+		</div>
+	</div>
+
+	<div class="container" id="about">
+		
+	</div>
 
 
 
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
