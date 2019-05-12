@@ -11,9 +11,10 @@ $(document).ready(function(){
 		});
 	});
 
-	$('#home').on('scroll', function() {
-		
-	})
+	$(window).on('scroll', function() {
+		console.log("hi");
+	});
+
 
 
 

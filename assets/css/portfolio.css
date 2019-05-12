@@ -5,7 +5,7 @@ body {
 	font-size: 18px;
 }
 
-#home {
+#home, #about {
 	height: 100vh;
 }
 
@@ -39,6 +39,10 @@ nav img {
 	height: 70px;
 }
 
+.navbar-light .navbar-toggler {
+    background-color: white;
+}
+
 .nav-link {
 	color: white!important;
 }
@@ -69,6 +73,23 @@ nav img {
 #home-subtext-row {
 	width:200px;
 }
+
+.text {
+	background: url('http://2.bp.blogspot.com/-uUGqU7J189w/T1qac0GdmWI/AAAAAAAAC6I/AJR8J1HZsi4/s1600/DOT%20GRID%20Gray.jpg');
+	background-size: 70% 70%;
+	background-repeat: no-repeat;
+	background-position: top right;
+	padding-top: 10px;
+	padding-right: 20%;
+	margin-top: 30px;
+	width: 80%;
+}
+
+.text p {
+	border-left: solid red 5px;
+	padding-left: 20px;
+}
+
 
 
 
