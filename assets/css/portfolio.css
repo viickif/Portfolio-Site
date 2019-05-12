@@ -9,10 +9,18 @@ body {
 	font-size: 18px;
 }
 
+.scroll {
+	height: 100vh;
+	width: 100vw;
+	scroll-snap-type: y mandatory;
+	overflow: scroll;
+}
+
 .section {
 	height: 100vh;
 	overflow: hidden;
 	margin-top: 70px;
+	scroll-snap-align: start;
 }
 
 #home, #projects {
@@ -188,6 +196,21 @@ footer p:first-of-type{
 }
 
 
+#test {
+	width: 60vw;
+	height: 15px;
+	position: fixed;
+	background-color: red;
+	z-index: 3;
+}
+
+.loadingDiv {
+	height: 100vh;
+	width: 100vw;
+	background-color: pink;
+	display: none;
+	z-index: 1000;
+}
 
 
 
