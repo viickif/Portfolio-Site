@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
 	/*padding-top: 70px;*/
 	font-family: 'Lato', sans-serif;
@@ -5,8 +9,14 @@ body {
 	font-size: 18px;
 }
 
-#home, #about {
+.section {
 	height: 100vh;
+	overflow: hidden;
+	margin-top: 70px;
+}
+
+#home {
+	margin-top: 0;
 }
 
 #home h1 {
@@ -23,13 +33,17 @@ h1 {
 }
 
 .period {
-	color: red;
+	color: #ff4f4f;
 }
 
 
 .bg-light{
 	background-color: transparent!important;
+	padding-top: 0;
+	padding-bottom: 0;
 }
+
+
 
 nav li {
 	padding-left: 30px;
@@ -86,9 +100,68 @@ nav img {
 }
 
 .text p {
-	border-left: solid red 5px;
+	border-left: solid #ff4f4f 5px;
 	padding-left: 20px;
 }
+
+.img-container {
+	overflow: hidden;
+}
+
+.img-container img {
+	transition: transform .2s ease;
+	width: 100%;
+
+}
+
+.section img {
+	width: 100%;
+
+}
+
+.img-container img:hover {
+	transform: scale(1.5);
+}
+
+
+
+.section a:hover {
+	color: #ff4f4f;
+}
+
+.section a:visited {
+	color: #c6c6c6;
+}
+
+
+
+.img-container {  
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+}
+
+
+.inverse-nav {
+	background-color: white!important;
+}
+
+.inverse-nav-link {
+	color: black!important;
+}
+
+
+
+
 
 
 
