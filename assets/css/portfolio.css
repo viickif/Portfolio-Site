@@ -109,6 +109,11 @@ nav img {
 .text p {
 	border-left: solid #ff4f4f 5px;
 	padding-left: 20px;
+	display: none;
+}
+
+#projects h1 {
+	display: none;
 }
 
 .img-container {
@@ -176,6 +181,7 @@ nav img {
 
 #projects p {
 	line-height: 10px;
+	display: none;
 }
 
 footer {
@@ -210,6 +216,7 @@ footer p:first-of-type{
 	display: none;
 	z-index: 1000;
 }
+
 
 
 
