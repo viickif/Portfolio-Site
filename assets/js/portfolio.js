@@ -22,22 +22,22 @@ $(document).ready(function(){
 		});
 	});
 
-	$(window).on('scroll', function(e) {
-		e.preventDefault();
-    	if($(window).scrollTop() > $(window).height()){
-    		$('.bg-light').addClass("inverse-nav");
-    		$('li a').addClass("inverse-nav-link");
-    	} else {
-    		$('.bg-light').removeClass("inverse-nav");
-    		$('li a').removeClass("inverse-nav-link");
-    	}
+	// $(window).on('scroll', function(e) {
+	// 	e.preventDefault();
+ //    	if($(window).scrollTop() > $(window).height()){
+ //    		$('.bg-light').addClass("inverse-nav");
+ //    		$('li a').addClass("inverse-nav-link");
+ //    	} else {
+ //    		$('.bg-light').removeClass("inverse-nav");
+ //    		$('li a').removeClass("inverse-nav-link");
+ //    	}
 
     	// $('html, body').animate({
      //    	scrollTop: $("#projects").offset().top
     	// }, 40);
 
 
-	}); 
+	// }); 
 
 
 	$("h1").click(function() {

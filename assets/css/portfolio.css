@@ -12,8 +12,10 @@ body {
 .scroll {
 	height: 100vh;
 	width: 100vw;
-	scroll-snap-type: y mandatory;
+	scroll-snap-type: y proximity;
 	overflow: scroll;
+	margin-top: 0;
+	padding-top: 0;
 }
 
 .section {
@@ -66,7 +68,7 @@ nav img {
 }
 
 .nav-link {
-	color: white!important;
+	color: #bababa!important;
 }
 
 
@@ -159,13 +161,13 @@ nav img {
 }
 
 
-.inverse-nav {
+/*.inverse-nav {
 	background-color: white!important;
 }
 
 .inverse-nav-link {
 	color: black!important;
-}
+}*/
 
 #projects-img {
 	/*background-image: url('https://media.giphy.com/media/OZe6HpM5eZow8/giphy.gif');*/
@@ -187,7 +189,7 @@ footer {
 }
 
 footer p:first-of-type{
-	color: gray;
+	color: #bababa;
 }
 
 #contact a {
