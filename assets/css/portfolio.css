@@ -1,9 +1,7 @@
 body {
-	/*padding-top: 70px;*/
 	font-family: 'Lato', sans-serif;
 	letter-spacing: 2px;
 	font-size: 18px;
-	background-color: gray;
 }
 
 .scroll {
@@ -132,15 +130,20 @@ nav img {
 	transform: scale(1.5);
 }
 
+a {
+	color: black;
+}
 
-
-.section a:hover {
+a:hover {
 	color: #ff4f4f;
+	text-decoration: none;
 }
 
-.section a:visited {
-	color: #c6c6c6;
+a:active {
+	color: #ff7070;
+	text-decoration: none;
 }
+
 
 
 
