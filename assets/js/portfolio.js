@@ -12,6 +12,10 @@ $(document).ready(function(){
 		});
 	});
 
+	$('h1').on('click', function() {
+		alert("hi");
+	})
+
 	$('.scroll').on('scroll', function(e) {
 		var scrollPos = $('.scroll').scrollTop();
     	if(scrollPos > $('#about').offset().top + 500){
@@ -40,43 +44,38 @@ $(document).ready(function(){
 				});
 			});
     	} else if (Math.abs(homeTop) > height) {
-    		homeText.slideUp(1);
-    		$('#home p').slideUp(1);
+    		homeText.slideUp(100);
+    		$('#home p').slideUp(100);
     	}
 
     	if(Math.abs(aboutTop) < range){
     		$('#about .text p').slideDown(300);
-    	} else if (Math.abs(aboutTop) > height) {
-    		$('#about .text p').slideUp(1);
+    	} else if (Math.abs(aboutTop) > height - 20) {
+    		$('#about .text p').slideUp(100);
     	}
 
     	if(Math.abs(projectsTop) < range){
-    		$('#projects p').slideDown(200, function() {
-	    			window.setTimeout(function(){
-					$('#projects h1').slideDown(200);
-				},300); 
-    		});
-    	} else if (Math.abs(projectsTop) > height) {
-    		$('#projects p').slideUp(1);
-    		$('#projects h1').slideUp(1);
+    		$('#projects-header').slideDown(200);
+    	} else if (Math.abs(projectsTop) > height - 20) {
+    		$('#projects-header').slideUp(100);
     	}
 
     	if(Math.abs(project1Top) < range ){
     		$('#project1 .text p').slideDown(300);
-    	} else if (Math.abs(project1Top) > height) {
-    		$('#project1 .text p').slideUp(1);
+    	} else if (Math.abs(project1Top) > height - 20) {
+    		$('#project1 .text p').slideUp(100);
     	}
 
     	if(Math.abs(project2Top) < range){
     		$('#project2 .text p').slideDown(300);
-    	} else if (Math.abs(project2Top) > height) {
-    		$('#project2 .text p').slideUp(1);
+    	} else if (Math.abs(project2Top) > height - 20) {
+    		$('#project2 .text p').slideUp(100);
     	}
 
     	if(Math.abs(contactTop) < range ){
     		$('#contact .text p').slideDown(300);
-    	} else if (Math.abs(contactTop) > height) {
-    		$('#contact .text p').slideUp(1);
+    	} else if (Math.abs(contactTop) > height - 20) {
+    		$('#contact .text p').slideUp(100);
     	}
 
 	});

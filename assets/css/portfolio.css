@@ -3,6 +3,7 @@ body {
 	font-family: 'Lato', sans-serif;
 	letter-spacing: 2px;
 	font-size: 18px;
+	background-color: gray;
 }
 
 .scroll {
@@ -112,10 +113,6 @@ nav img {
 	display: none;
 }
 
-#projects h1 {
-	display: none;
-}
-
 .img-container {
 	overflow: hidden;
 }
@@ -177,7 +174,6 @@ nav img {
 
 #projects p {
 	line-height: 10px;
-	display: none;
 }
 
 footer {
@@ -214,7 +210,9 @@ footer p:first-of-type{
 	z-index: 1000;
 }
 
-
+#projects-header {
+	display: none;
+}
 
 
 
