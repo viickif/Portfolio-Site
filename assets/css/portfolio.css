@@ -163,10 +163,6 @@ nav img {
 }
 
 
-.inverse-nav {
-	/*background-color: white!important;*/
-}
-
 .inverse-nav-link {
 	color: black!important;
 }
@@ -189,6 +185,7 @@ footer {
 	color: white;
 	font-size: 12px;
 	padding-top: 10px;
+	scroll-snap-align: start;
 }
 
 footer p:first-of-type{
