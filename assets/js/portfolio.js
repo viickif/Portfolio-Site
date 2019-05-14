@@ -16,9 +16,6 @@ $(document).ready(function(){
 
     	var homeTop = $('#home').offset().top;
     	var aboutTop = $('#about').offset().top;
-    	var projectsTop = $('#projects').offset().top;
-    	var project1Top = $('#project1').offset().top;
-    	var project2Top = $('#project2').offset().top;
     	var contactTop = $('#contact').offset().top;
     	var height = $(window).height();
     	var range = $(window).width() / 5;

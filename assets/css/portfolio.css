@@ -226,13 +226,14 @@ footer p:first-of-type{
 }
 
 #contact-header {
-	max-width: 400px;
+	max-width: 350px;
 }
 
 #contact a {
 	color:  white;
 	font-size: 2em;
 	line-height: 2em;
+	letter-spacing: 0.3em;
 }
 
 #contact a:hover {
