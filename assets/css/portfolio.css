@@ -72,6 +72,7 @@ nav img {
 	height: 100vh;
 }
 
+
 #home-img {
 	/*background-image: url('https://media.giphy.com/media/3osBLAr1hKoKS3Fj0c/giphy.gif');*/
 	background-image: url('https://media.giphy.com/media/l3vQZDJwBaojhMXbW/giphy.gif');
@@ -131,7 +132,7 @@ nav img {
 }
 
 a {
-	color: black;
+	color: #141414;
 }
 
 a:hover {
@@ -164,15 +165,17 @@ a:active {
 
 
 .inverse-nav-link {
-	color: black!important;
+	color: #141414!important;
 }
 
 #projects-img {
 	/*background-image: url('https://media.giphy.com/media/OZe6HpM5eZow8/giphy.gif');*/
 	background-repeat: no-repeat;
-	background-size: fill;
-	background-position: center;
-	background-image: url('https://media.giphy.com/media/5ONgfB7NTmwrm/giphy.gif');
+	background-size: cover;
+	/*background-image: url('https://media.giphy.com/media/3oz8xsida8RYQhj6a4/giphy.gif');*/
+	/*background-image: url('https://media.giphy.com/media/1oDwUiHR5xshx5nvCJ/giphy.gif');*/
+	/*https://media.giphy.com/media/l0MYHQcR9gcM7JYBi/giphy.gif*/
+	background-image: url('https://media.giphy.com/media/6P0BnGWIDxu0w/giphy.gif');
 }
 
 #projects p {
@@ -180,7 +183,7 @@ a:active {
 }
 
 footer {
-	background-color: black;
+	background-color: #141414;
 	color: white;
 	font-size: 12px;
 	padding-top: 10px;
@@ -189,11 +192,6 @@ footer {
 
 footer p:first-of-type{
 	color: gray;
-}
-
-#contact a {
-	margin-right: 20px;
-	font-size: 30px;
 }
 
 
@@ -216,6 +214,35 @@ footer p:first-of-type{
 #projects-header {
 	display: none;
 }
+
+#projects {
+	background-color: #141414;
+	color: white;
+}
+
+#contact {
+	background-color: #141414;
+	color: white;
+}
+
+#contact-header {
+	max-width: 400px;
+}
+
+#contact a {
+	color:  white;
+	font-size: 2em;
+	line-height: 2em;
+}
+
+#contact a:hover {
+	color: #ff4f4f;
+}
+
+#contact a:active {
+	color: #f1f442;
+}
+
 
 
 
