@@ -80,19 +80,10 @@ nav img {
 	background-size: cover;
 }
 
-#home-text-container {
-	width: 136.27px;
-	max-width: 136.27px;
-	min-width: 136.27px;
-}
 
 #home p {
 	display: none;
 	transform: rotate(270deg);
-}
-
-#home-subtext-row {
-	width:200px;
 }
 
 .text {
@@ -124,6 +115,11 @@ nav img {
 
 .section img {
 	width: 100%;
+
+}
+
+#about img {
+	width: 80%;
 
 }
 
@@ -184,15 +180,12 @@ a:active {
 
 footer {
 	background-color: #141414;
-	color: white;
+	color: gray;
 	font-size: 12px;
 	padding-top: 10px;
 	scroll-snap-align: start;
 }
 
-footer p:first-of-type{
-	color: gray;
-}
 
 
 #test {
@@ -231,7 +224,7 @@ footer p:first-of-type{
 
 #contact a {
 	color:  white;
-	font-size: 2em;
+	font-size: 1.7em;
 	line-height: 2em;
 	letter-spacing: 0.3em;
 }

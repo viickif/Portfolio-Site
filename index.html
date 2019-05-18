@@ -53,43 +53,40 @@
 	<div class="scroll">
 		<div class="container-fluid section" id="home">
 			<div class="row main-row">
-				<div class="col-md-6 col-9 d-flex justify-content-center align-items-center">
-					<div class="row" id="home-subtext-row">
-						<div class="col-3 d-flex align-items-end justify-content-center">
-							<p>Software Developer</p>
-						</div>
-						<div class="col-9" id="home-text-container">
-							<h1>Hi<span class="period">.<span></h1>
-							<h1>I'm</h1>
-							<h1>Vicki<span class="period">.<span></h1>
-						</div>
+				<div class="col-md-6 col-sm-9 col-xs-12 d-flex justify-content-center align-items-center">
+					<div class="col-2">
+						<p>Software Developer</p>
+					</div>
+					<div class="col-5">
+						<h1>Hi<span class="period">.<span></h1>
+						<h1>I'm</h1>
+						<h1>Vicki<span class="period">.<span></h1>
 					</div>
 				</div>
-				<div class="col-md-6 col-3 px-0" id="home-img">
+				<div class="col-md-6 col-sm-3 hidden-xs px-0" id="home-img">
 				</div>
 			</div>
 		</div>
 
-		<div class="container-fluid d-flex align-items-center section" id="about">
+		<div class="container d-flex align-items-center section" id="about">
 			<div class="row">
 				<div class="col-md-6 d-flex align-items-center justify-content-center">
-					<a href="#"><img closs="img-fluid" src="assets/img/me.jpg"></a>
+					<img class="img-fluid" src="assets/img/me.jpg">
 				</div>
 				<div class="col-md-6 d-flex align-items-center justify-content-center">
 					<div class="text">
-						<h1>Hey world<span class="period">!</span></h1>
+						<h1>Hi world<span class="period">!</span></h1>
 						<p class="slide">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat.</p>
+						</p>
 					</div>
 				</div>
 			</div>	
 		</div>
 
+
 		<div class="container-fluid section" id="projects">
 			<div class="row main-row">
-				<div class="col-md-6 col-9 d-flex flex-column justify-content-center align-items-center">
+				<div class="col-md-6 col-sm-9 col-xs-12 d-flex flex-column justify-content-center align-items-center">
 					<div class="slide" id="projects-header">
 						<p>I love</p>
 						<p>learning new skills<span class="period">.<span></p>
@@ -97,14 +94,14 @@
 						<h1>favorite projects<span class="period">:<span></h1>
 					</div>
 				</div>
-				<div class="col-md-6 col-3 px-0" id="projects-img">
+				<div class="col-md-6 col-sm-3 hidden-xs px-0" id="projects-img">
 				</div>
 			</div>
 		</div>
 
 		<div class="container d-flex align-items-center section" id="project1">
 			<div class="row">
-				<div class="col-md-6 d-flex align-items-center justify-content-center">
+				<div class="col-md-6 d-flex align-items-center justify-content-center order-md-1 order-2">
 					<div class="text">
 						<h1>Some project<span class="period">.</span></h1>
 						<p class="slide">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -113,7 +110,7 @@
 						<a href="">View project  <i class="fas fa-angle-double-left"></i></a>
 					</div>
 				</div>
-				<div class="col-md-6 d-flex align-items-center justify-content-center">
+				<div class="col-md-6 d-flex align-items-center justify-content-center order-md-2 order-1">
 					<div class="img-container">
 						<a href="#"><img closs="img-fluid" src="https://www.mockupworld.co/wp-content/uploads/edd/2018/05/free-macbook-pro-clay-mockup-psd-1000x750.jpg"></a>
 					</div>
@@ -142,7 +139,7 @@
 
 		<div class="container d-flex align-items-center section" id="project3">
 			<div class="row">
-				<div class="col-md-6 d-flex align-items-center justify-content-center">
+				<div class="col-md-6 d-flex align-items-center justify-content-center order-md-1 order-2">
 					<div class="text">
 						<h1>Some project<span class="period">.</span></h1>
 						<p class="slide">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -151,7 +148,7 @@
 						<a href="">View project  <i class="fas fa-angle-double-left"></i></a>
 					</div>
 				</div>
-				<div class="col-md-6 d-flex align-items-center justify-content-center">
+				<div class="col-md-6 d-flex align-items-center justify-content-center order-md-2 order-1">
 					<div class="img-container">
 						<a href="#"><img closs="img-fluid" src="https://www.mockupworld.co/wp-content/uploads/edd/2018/05/free-macbook-pro-clay-mockup-psd-1000x750.jpg"></a>
 					</div>
@@ -178,30 +175,42 @@
 			</div>	
 		</div>
 
-		<div class="container-fluid section" id="contact">
-			<div class="row main-row">
-				<div class="col-md-5 d-flex flex-column justify-content-center align-items-end">
-					<div id="contact-header">
+
+
+		<div class="container-fluid d-flex align-items-center justify-content-center section" id="contact">
+			<div class="row">
+				<div class="col-md-6 d-flex align-items-center justify-content-center">
+					<div class="slide" id="contact-header">
 						<h1>Say</h1>
-						<h1>Hello <span class="period">: )<span></h1>
-						<p class="slide">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam<span class="period">.<span></p>
+						<h1>hello <span class="period">: )</span></h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam<span class="period">.</span></p>
 					</div>
 				</div>
-				<div class="col-md-7 px-0 d-flex justify-content-center align-items-center">
-					<div class="d-flex flex-column align-items-start img-container">
-						<a href="#">Email  <span class="period"><i class="fas fa-chevron-right"></i><span></a>
-						<a href="#">Github  <span class="period"><i class="fas fa-chevron-right"></i><span></a>
-						<a href="#">Resume  <span class="period"><i class="fas fa-chevron-right"></i><span></a>
-						<a href="#">LinkedIn  <span class="period"><i class="fas fa-chevron-right"></i><span></a>
+				<div class="col-md-6 d-flex align-items-center justify-content-center">
+					<div class="img-container">
+						<div class="d-flex flex-column">
+							<a href="#">Email  <span class="period"><i class="fas fa-chevron-right"></i></span></a>
+							<a href="#">Github  <span class="period"><i class="fas fa-chevron-right"></i></span></a>
+							<a href="#">Resume  <span class="period"><i class="fas fa-chevron-right"></i></span></a>
+							<a href="#">LinkedIn  <span class="period"><i class="fas fa-chevron-right"></i></span></a>
+						</div>
 					</div>
 				</div>
-			</div>
-		</div>
+			</div>	
+		</div>	
 
 		<!-- Footer -->
 		<footer>
-			<div class="container-fluid d-flex justify-content-between"><p>Designed and developed by Vicki Fu</p><p>vicki.wfu@gmail.com</p></div>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-sm-6 text-sm-left text-center">
+						<p>Designed and developed by Vicki Fu</p>
+					</div>
+					<div class="col-sm-6 text-sm-right text-center">
+						<p>vicki.wfu@gmail.com</p></div>
+					</div>
+				</div>
 		</footer>
 	</div>
 
