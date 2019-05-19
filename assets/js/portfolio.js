@@ -21,14 +21,20 @@ $(document).ready(function(){
 	pages.forEach(function(value, key) {
 	  $(key).on('click', function() {
 				$(value).animate({width: 'show'});
-			});
+		});
 	});
+
+	$('.back-btn').on('click', function() {
+		$(this).closest('.page').animate({width: 'hide'});
+	})
 
 	$('nav a').on('click', function() {
 		pages.forEach(function(value) {
 			$(value).animate({width: 'hide'});	
 		});
 	});
+
+
 
 	$('.scroll').on('scroll', function(e) {
 
