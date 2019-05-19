@@ -7,7 +7,7 @@ $(document).ready(function(){
 		$(homeText[1]).slideDown(500);
 		$(homeText[2]).slideDown(500, function() { window.setTimeout(function(){
 				$('#home p').slideDown(150);
-				$('.navbar').slideDown(150);
+				$('#home a').slideDown(150);
 			},300); 
 		});
 	});
@@ -53,12 +53,14 @@ $(document).ready(function(){
 				$(homeText[1]).slideDown(500);
 				$(homeText[2]).slideDown(500, function() { window.setTimeout(function(){
 						$('#home p').slideDown(150);
+						$('#home a').slideDown(150);
 					},300); 
 				});
 			});
     	} else if (Math.abs(homeTop) > height) {
     		homeText.slideUp(100);
     		$('#home p').slideUp(150);
+    		$('#home a').slideUp(150);
     	}
 
     	var toSlide = $('.section');
@@ -71,14 +73,19 @@ $(document).ready(function(){
     		}
     	}
 
-    	if(aboutTop >= 100 || (projectsTop <= 50 && project1Top >= 100) || contactTop <= 50) {
-    		$('li a').removeClass("inverse-nav-link");
-    		if(aboutTop < 100 )
-    			$('nav a img').attr("src", "assets/img/logo-white.png");
-    	} else {
+    	if((projectsTop <= 50 && project1Top >= 100) || contactTop <= 50) {
     		$('li a').addClass("inverse-nav-link");
+    		$('nav a img').attr("src", "assets/img/logo-white.png");
+    	} else {
+    		$('li a').removeClass("inverse-nav-link");
     		$('nav a img').attr("src", "assets/img/logo.png");
     	}
+
+    	 if(aboutTop < 100 ) {
+    	 	$('nav').fadeIn(300);
+    	 } else {
+    	 	$('nav').fadeOut(300);
+    	 }
 	});
 
 });
