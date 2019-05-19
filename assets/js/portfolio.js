@@ -12,6 +12,24 @@ $(document).ready(function(){
 		});
 	});
 
+	var pages = new Map();
+	pages.set('#project1 a', '#project1-page');
+	pages.set('#project2 a', '#project2-page');
+	pages.set('#project3 a', '#project3-page');
+	pages.set('#project4 a', '#project4-page');
+
+	pages.forEach(function(value, key) {
+	  $(key).on('click', function() {
+				$(value).animate({width: 'show'});
+			});
+	});
+
+	$('nav a').on('click', function() {
+		pages.forEach(function(value) {
+			$(value).animate({width: 'hide'});	
+		});
+	});
+
 	$('.scroll').on('scroll', function(e) {
 
     	var homeTop = $('#home').offset().top;
