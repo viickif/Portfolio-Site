@@ -2,7 +2,7 @@ body {
 	font-family: 'Lato', sans-serif;
 	letter-spacing: 2px;
 	font-size: 18px;
-	color: #3d3d3d;
+	color: #4d5159;
 }
 
 .scroll {
@@ -66,7 +66,7 @@ nav img {
 }
 
 .nav-link {
-	color: #3d3d3d!important;
+	color: #4d5159!important;
 }
 
 
@@ -129,7 +129,7 @@ nav img {
 }
 
 a {
-	color: #3d3d3d;
+	color: #4d5159;
 }
 
 a:hover {
@@ -165,22 +165,12 @@ a:active {
 	color: white!important;
 }
 
-#projects-img {
-	/*background-image: url('https://media.giphy.com/media/OZe6HpM5eZow8/giphy.gif');*/
-	background-repeat: no-repeat;
-	background-size: cover;
-	/*background-image: url('https://media.giphy.com/media/3oz8xsida8RYQhj6a4/giphy.gif');*/
-	/*background-image: url('https://media.giphy.com/media/1oDwUiHR5xshx5nvCJ/giphy.gif');*/
-	/*https://media.giphy.com/media/l0MYHQcR9gcM7JYBi/giphy.gif*/
-	/*background-image: url('https://media.giphy.com/media/6P0BnGWIDxu0w/giphy.gif');*/
-}
-
 #projects p {
 	line-height: 10px;
 }
 
 footer {
-	background-color: #3d3d3d;
+	background-color: #4d5159;
 	color: gray;
 	font-size: 12px;
 	padding-top: 10px;
@@ -192,12 +182,12 @@ footer {
 }
 
 #projects {
-	background-color: #3d3d3d;
+	background-color: #4d5159;
 	color: white;
 }
 
 #contact {
-	background-color: #3d3d3d;
+	background-color: #4d5159;
 	color: white;
 }
 
