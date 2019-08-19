@@ -17,6 +17,7 @@ body {
 
 .section {
 	height: 100vh;
+	min-height: 900px;
 	overflow: hidden;
 	margin-top: 70px;
 	scroll-snap-align: start;
