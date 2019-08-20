@@ -129,12 +129,26 @@ nav img {
 	transform: scale(1.5);
 }
 
+.page p a {
+	color: #ff4f4f;
+}
+
+.page p a:hover {
+	color: #ff0000;
+	text-decoration: none;
+}
+
+.page p a:active {
+	color: #ff0000
+	text-decoration: none;
+}
+
 a {
 	color: #4d5159;
 }
 
 a:hover {
-	color: #ff4f4f;
+	color: #ff0000;
 	text-decoration: none;
 }
 
@@ -142,8 +156,6 @@ a:active {
 	color: #ff0000
 	text-decoration: none;
 }
-
-
 
 
 .img-container {  
