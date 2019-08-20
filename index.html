@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Vicki Fu</title>
 	
 	<!-- bootstrap -->
@@ -287,15 +288,51 @@
 				<br>
 
 				<p>For more details, checkout the keyboard controlled <a href=https://github.com/jacksonx9/ClashOfSnakes" target="_blank">Clash of Snakes GitHub repo</a>.</p>
-
-
 			</div>
 		</div>
 	</div>
 
 	<div class="container-fluid page" id="project4-page">
-		<h1>This page is under construction. Please check back later :)</h1>
-		<a class="back-btn" href="#"><i class="fas fa-chevron-left"></i></a>
+		<div class="container">
+			<a class="back-btn" href="#"><i class="fas fa-chevron-left"></i></a>
+			<div class="row">
+				<h1>Algorithmic Art Image Editor</h1>
+			</div>
+			<div class="row align-items-center justify-content-center">
+				<div class="col-12">
+					<p>Tools: C++</p>
+					<br>
+
+					<p>Algorithmic Art Image Editor (AAIE) is a fun image editor program that I made with a partner over the course of 4 months. It taught me a lot about how to make good use of data structures and algorithms. Here's an overview of its 3 main features and some examples of its results.</p>
+
+					<h5>Flood fill GIF animations:</h5>
+					<p>Users can choose a closed region of an image to generate a GIF of flood filling it with a custom pattern. To do this, we used BFS, DFS and deques as well as inheritance/virtual functions.</p>
+				</div>
+
+				<div class="col-md-6 d-flex align-items-center justify-content-center">
+					<img class="img-fluid" src="assets/img/aaie_flood.gif">
+				</div>
+
+
+				<div class="mt-2 col-12">	
+					<h5>Reordering image chains:</h5>
+					<p>Users can apply filters and watermarks to images or choose to provide an image that we can chop up and reorder in visually interesting ways (weaving, rolling back, reversing, etc). We accomplished this by splitting the image up into strips, putting them in a circular doubly-linked list and changing pixel properties.</p>
+				</div>
+
+				<div class="col-md-8 d-flex align-items-center justify-content-center">
+					<img class="img-fluid" src="assets/img/aaie_weave.png">
+				</div>
+
+				<div class="mt-2 col-12">	
+					<h5>Blocky effect:</h5>
+					<p>Users can also recreate any image using this cool blocky effect. We used a few image compression, space partition and statistical algorithm optimization concepts for this. It involved recursively splitting each image into quarters and building a quad tree, calculating color entropy, pruning the tree and more.</p>
+				</div>
+
+				<div class="col-md-8 d-flex align-items-center justify-content-center">
+					<img class="img-fluid" src="assets/img/aaie_blocky.png">
+				</div>
+			</div>
+		</div>
 	</div>
 
 
